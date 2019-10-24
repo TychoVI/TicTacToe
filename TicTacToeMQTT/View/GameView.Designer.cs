@@ -178,6 +178,6 @@
         private TicTacToeMQTT.View.GameSquareView gameSquare2;
         private TicTacToeMQTT.View.GameSquareView gameSquare1;
         private System.Windows.Forms.Label statusLabel;
-        private System.Windows.Forms.Button connectButton;
+        internal System.Windows.Forms.Button connectButton;
     }
 }
