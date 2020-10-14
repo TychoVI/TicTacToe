@@ -32,7 +32,7 @@ namespace TicTacToeMQTT.Controller
                 .WithAutoReconnectDelay(TimeSpan.FromSeconds(5))
                 .WithClientOptions(new MqttClientOptionsBuilder()
                     .WithClientId(_gameView.getPlayerName())
-                    .WithTcpServer("home.vanisterdael.org", 1883)
+                    .WithTcpServer("broker.hivemq.com", 1883)
                     .Build())
                 .Build();
             
